@@ -18,6 +18,10 @@ html {
   border-radius: 0 6px 6px;
 }
 
+.card-body {
+  padding: .2rem 1rem;
+}
+
 .card-title {
   margin: 0;
   padding: .3rem 1rem;
@@ -25,10 +29,9 @@ html {
   bottom: 0;
   left: 0;
   width: 100%;
-
 }
 
-.card-lable {
+.card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid green;
   background-color: rgba(255, 255, 255, .6);
